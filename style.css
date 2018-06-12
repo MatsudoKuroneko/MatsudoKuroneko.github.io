@@ -1,0 +1,103 @@
+html {
+    font-family: 'NotoSansCJKjp-Light', sans-serif;
+    background-color: #efeff4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: 10px;
+    
+  }
+
+
+
+#Contents{
+    font-family: 'NotoSansCJKjp-Light', sans-serif;
+    height: 100vx;
+    padding:15px;
+    color: black;
+    background-color: white;
+	text-align: left;
+    -webkit-border-radius: 1.75px; 
+    -moz-border-radius: 1.75px; 
+    border-radius: 1.75px; 
+    font-size: 28px;
+    font-weight:100;
+    }
+      
+  
+    #Contents small{
+        font-family: 'NotoSansCJKjp-Thin', sans-serif;
+        font-size: 15px;
+      }
+      
+    #Contents a{
+          color: black
+      }
+
+
+#MenuBar{
+    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    top: 20;
+    left: 0;
+	position: fixed;
+    width: 100vw;
+    z-index:200;
+    background-color: white;
+    -webkit-border-radius: 44px; 
+      -moz-border-radius: 44px; 
+    border-top: solid 0.75px #bec5cf;
+    border-bottom: solid 0.75px #bec5cf;
+  font-size: 16px;
+  
+  
+}
+
+#MenuBar ul{
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#MenuBar li{
+	margin-top: 0.75%;
+	flex: auto; 
+	text-align: center;
+}
+
+#MenuBar a{
+    color: black;
+}
+
+#Tit{
+    padding: 15px;
+  font-size: 40px;
+  
+  
+  
+}
+
+.outer{
+    position: relative;
+  }
+  .inner{
+
+    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    font-size: 50px;
+  }
+
