@@ -19,7 +19,7 @@ a{
 
 
 
-#Contents{
+#BlogContents{
     font-family: 'NotoSansCJKjp-Light', sans-serif;
     height: 100vx;
     padding:15px;
@@ -34,15 +34,32 @@ a{
     }
       
   
-    #Contents small{
+    #BlogContents small{
         font-family: 'NotoSansCJKjp-Thin', sans-serif;
         font-size: 15px;
       }
       
-    #Contents a{
+    #BlogContents a{
           color: black
       }
 
+#Contents{
+        font-family: 'NotoSansCJKjp-Light', sans-serif;
+        height: 100vx;
+        padding:15px;
+        color: black;
+        background-color: white;
+        text-align: left;
+        -webkit-border-radius: 1.75px; 
+        -moz-border-radius: 1.75px; 
+        border-radius: 1.75px; 
+        font-weight:100;
+        }
+          
+          
+        #Contents a{
+              color: black
+          }
 
 #MenuBar{
     font-family: 'NotoSansCJKjp-Thin', sans-serif;
@@ -83,8 +100,6 @@ a{
     padding: 15px;
   font-size: 40px;
   
-  
-  
 }
 
 .outer{
@@ -101,3 +116,35 @@ a{
     font-size: 50px;
   }
 
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.hidden_box label {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.hidden_box input {
+    display: none;
+    
+}
+
+.hidden_box label:hover {
+    color: #679efd;
+}
