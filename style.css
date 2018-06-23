@@ -118,6 +118,10 @@ small{
 	justify-content: space-around;
 }
 
+#MenuBar small{
+    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-size: 10px;
+    }
 
 #MenuBar li{
 	margin-top: 0.75%;
