@@ -17,6 +17,12 @@ a{
     
   }
 
+small{
+    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-size: 15px;
+    }
+
+
 
 
 #BlogContents{
@@ -32,12 +38,6 @@ a{
     font-size: 28px;
     font-weight:100;
     }
-      
-  
-    #BlogContents small{
-        font-family: 'NotoSansCJKjp-Thin', sans-serif;
-        font-size: 15px;
-      }
       
     #BlogContents a{
           color: black
@@ -58,8 +58,41 @@ a{
           
           
         #Contents a{
-              color: black
+              color: rgb(0,122,255);
           }
+
+        #Contents  h2{
+            font-family: 'NotoSansCJKjp-Thin', sans-serif;
+          }
+
+          #Contents ul{
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+          
+        }
+
+#SectionT{
+            font-family: 'NotoSansCJKjp-Thin', sans-serif;
+            font-size: 55px;
+            content: '';
+            margin-left: 10px;
+            border-bottom: 1px solid #C8C7CC;  
+            }
+
+
+
+#Thinf{
+        font-family: 'NotoSansCJKjp-Thin', sans-serif;
+        font-size: 55px;    
+        }
+
+#Thinh{
+        font-family: 'NotoSansCJKjp-Thin', sans-serif;
+        font-size: 25px;  
+
+            }
 
 #MenuBar{
     font-family: 'NotoSansCJKjp-Thin', sans-serif;
@@ -102,20 +135,6 @@ a{
   
 }
 
-.outer{
-    position: relative;
-  }
-  .inner{
-
-    font-family: 'NotoSansCJKjp-Thin', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
-    font-size: 50px;
-  }
-
 .hidden_box .hidden_show {
     height: 0;
     padding: 0;
@@ -134,8 +153,8 @@ a{
     display: inline-block;
     padding: 0.3em 1em;
     text-decoration: none;
-    color: #67c5ff;
-    border: solid 2px #67c5ff;
+    color: rgb(0,122,255);
+    border: solid 2px rgb(0,122,255);;
     border-radius: 3px;
     transition: .4s;
 }
@@ -147,4 +166,48 @@ a{
 
 .hidden_box label:hover {
     color: #679efd;
+}
+
+ln{
+    content: '';
+    margin-left: 10px;
+    border-bottom: 1px solid #C8C7CC;
+}
+
+#works{
+    margin-top: 10px;
+    margin: 1vw;
+    text-align: center
+}
+
+#works p{
+    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-size: 25px;
+}
+
+#works small{
+    font-size: 12px;
+    color: rgb(94,94,94);
+}
+
+#ConLink{
+    
+        display: inline-block;
+        padding: 0.3em 1em;
+        text-decoration: none;
+        color: rgb(0,122,255);
+        border: solid 2px rgb(0,122,255);;
+        border-radius: 3px;
+        transition: .4s;
+}
+
+#ConLinkH{
+    display: inline-block;
+    text-align: center;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: rgb(94,94,94);
+    border: solid 2px rgb(94,94,94);
+    border-radius: 3px;
+    transition: .4s;
 }
