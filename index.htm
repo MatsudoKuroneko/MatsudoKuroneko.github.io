@@ -2,48 +2,82 @@
 <html lang = "ja">
 <head>
 <meta charset="UTF-8">
-    <title>どかんのうえ</title>
+    <title>Mikecyanin's Site</title>
 	<link rel="stylesheet" type="css" href="style.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="どかんのうえ">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121433020-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'UA-121433020-2');
+    </script>
     <!--<link rel="apple-touch-icon-precomposed" href="img/icon.png">-->
 </head>
 <boby>
         <p><div id="MenuBar"><ul>
-                <li>Mikecyanin<small>　Ver 0.01a</small></li>
+                <li>Mikecyanin<small>　Ver 0.02</small></li>
                 <li><a href="index.htm">Home</a></li>
-                <li>Comming Soon…</li>
-                <li><a href="link.htm">Links</a></li>
+                <li><a class="graycolor">News<small>　Comming Soon…</small></a></li>
+                <li><a href="#aboutz" target="_self">About Me</a></li>
+                <li><a href="#worksz" target="_self">Works</a></li>
+                <li><a href="#linksz" target="_self">Links</a></li>
               </ul></p></div>
               
               <br><br><br>
               
               
-              <div id="Contents"><div id="SectionT">About Me<small>　誰だ私</small></div>
-              <div id="works"><img src="img/mikecyanin.jpeg">
+              <div id="aboutz"><div id="Contents"><div id="SectionT">About Me<small>　誰だ私</small></div>
+              <div id="works"><img src="img/mikecyanin.jpeg" width="50%" height="50%">
               <p>Mikecyanin</p><ln></ln>
               <a class="fab fa-twitter fa-1x" href="https://twitter.com/intent/user?screen_name=mikecyanin"></a><br><br>
-              14歳のひよっこ中学生プログラマー。趣味で主にWebアプリケーション、ゲームなどを開発しております。<br><br>
-              <div id="ConLinkH">さらに詳しく（公開準備中）</div>
-              </div></div><br>
+              14歳のひよっこ中学生プログラマー。趣味で主にWebやiOS向けのアプリケーション、ゲームなどを開発しております。<br>好きな作品は東方Project、こみっくがーるず、メジャーシリーズなど。<br>
+              </div></div></div><br>
               
               
               
-              <div id="Contents"><div id="SectionT">Works<small>　制作物とか</small></div>
-                        <div id="works"><img src="img/keikou.png">
+              <div id="worksz"><div id="Contents"><div id="SectionT">Works<small>　制作物とか</small></div>
+                        <div id="works"><br><img src="img/keikou.png" width="15%" height="15%">
                         <p>蛍光夢</p>
                         レトロとモダンを兼ね備えた昔ながらの新しいSTG<br>
                         <small>2017-</small><br>
                         <small>Part: Project Organizer/Programmer/Scenario Writer/Game Designer/Composer</small>
                         
                         <br><br><div id="ConLinkH">2018年冬公開予定</div></div><ln></ln>
-                        <div id="works"><img src="img/comming.png">
-                            <p>殴り書き帳</p>
-                            簡単にブログが書けるアプリケーション
-                            <br>
-                        <small>2018</small><br>
-                        <small>Develop Language: Swift</small><br><br>
-                        <div id="ConLinkH">公開準備中</div></div><ln></ln>
+                        <div id="works">
+                            <p>And More…<br>この他にもiOS Appなど現在絶賛開発中です。もしかしたらTwitterに進捗を置いている可能性もなきにしもあらず。</p>
+                    </div></div><ln></ln>
+
+                    <br>
+                    <div id="linksz">
+                    <div id="Contents"><div id="SectionT">Links<small>　りんく集</small></div>
+                          <h2>私のサイトへのリンクについて</h2>基本リングフリーですが、リンクを貼る場合Twitter、メールなどで何かしら連絡いただけると嬉しいです(*'▽'*)</div><br>
+                    <div class="hidden_box">
+                          <label for="label2">尊敬している方々（エンジニア・同人）</label>
+                          <input type="checkbox" id="label2"/>
+                          <div class="hidden_show">
+                            <!--非表示ここから-->     
+                                                <a href="https://yuki384.github.io"><div id="Contents">
+                          <table>
+                      <tr>
+                      <td><img src="img/yuki.png"></td>
+                      <td>ゆーきさん（Yuki384氏）のポートフォリオサイトです。<br>
+                          色んな意味でやばい正直最高の友人（だと思ってる）かつあこがれというか目指すべき人。自分のやりたい事というか理想像がこの人なんだよなぁ…<br>
+                          尊敬してる上傍ら<s>フグ田移転の敵</s>ライバル視してる。</div></a></td>
+                      </tr>
+                      </table></div></a><br>
+                      <a href="http://50dnh.blog.fc2.com">
+                      <div id="Contents">
+                      <table>
+                              <tr>
+                              <td><img src="http://blog-imgs-76.fc2.com/5/0/d/50dnh/banner.jpg"></td>
+                              <td>Gore氏のブログです。<br>（勝手に貼らせていただきました…すみません…）<br>.
+                                      ごれ氏の作品『東方天華楼』が正直言って、私がSTG作るきっかけになった。もう原作でいいんじゃってほどの高クオリティな東方風STGを作る方です。文殊銭期待してます！</div></a></td>
+                              </tr>
+                              </table>
+                          </div></a></div><br><br>
