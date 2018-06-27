@@ -129,6 +129,9 @@ small{
 	text-align: center;
 }
 
+#MenuBar a{
+    color: black
+}
 
 #Tit{
     padding: 15px;
