@@ -1,13 +1,8 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 html {
-    font-family: 'NotoSansCJKjp-Light', sans-serif;
-    background-color: #efeff4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-x: visible;
-    overflow-y: hidden;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 200px;
+    
 }
 
 a{
@@ -18,7 +13,8 @@ a{
   }
 
 small{
-    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 100px;
     font-size: 15px;
     }
 
@@ -26,7 +22,8 @@ small{
 
 
 #BlogContents{
-    font-family: 'NotoSansCJKjp-Light', sans-serif;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 200px;
     height: 100vx;
     padding:15px;
     color: black;
@@ -44,16 +41,12 @@ small{
       }
 
 #Contents{
-        font-family: 'NotoSansCJKjp-Light', sans-serif;
-        height: 100vx;
+        font-family: 'Noto Sans Japanese', sans-serif;
+        font-weight: 100;
         padding:15px;
-        color: black;
-        background-color: white;
-        text-align: left;
         -webkit-border-radius: 1.75px; 
         -moz-border-radius: 1.75px; 
         border-radius: 1.75px; 
-        font-weight:100;
         }
           
           
@@ -62,7 +55,8 @@ small{
           }
 
         #Contents  h2{
-            font-family: 'NotoSansCJKjp-Thin', sans-serif;
+            font-family: 'Noto Sans Japanese', sans-serif;
+            font-weight: 100px;
           }
 
           #Contents ul{
@@ -74,28 +68,50 @@ small{
         }
 
 #SectionT{
-            font-family: 'NotoSansCJKjp-Thin', sans-serif;
+            font-family: 'Noto Sans Japanese', sans-serif;
+            text-align: center;
+            font-weight: 50px;
             font-size: 55px;
             content: '';
-            margin-left: 10px;
             border-bottom: 1px solid #C8C7CC;  
             }
+#aboutz{
+                background-color: #ff7474;
+                color: black;
+                            }
+#worksz{
+    background-color: wheat;
+    color: black;
+                }
 
-
+#linksz{
+                    background-color: #1E90FF;
+                    color: white;
+                                }
+#linksz a{
+                    color: white;
+                                }
+                            
+#footer{
+                    background-color: black;
+                    color: white;
+                                                }
 
 #Thinf{
-        font-family: 'NotoSansCJKjp-Thin', sans-serif;
-        font-size: 55px;    
+        font-family: 'Noto Sans Japanese', sans-serif;
+        font-weight: 100px;  
         }
 
 #Thinh{
-        font-family: 'NotoSansCJKjp-Thin', sans-serif;
+        font-family: 'Noto Sans Japanese', sans-serif;
+        font-weight: 100px;  
         font-size: 25px;  
 
             }
 
 #MenuBar{
-    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 100px;  
     top: 20;
     left: 0;
 	position: fixed;
@@ -119,7 +135,8 @@ small{
 }
 
 #MenuBar small{
-    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 100px;  
     font-size: 10px;
     }
 
@@ -189,7 +206,8 @@ ln{
 }
 
 #works p{
-    font-family: 'NotoSansCJKjp-Thin', sans-serif;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-weight: 100px;  
     font-size: 25px;
 }
 
