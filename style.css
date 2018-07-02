@@ -1,9 +1,12 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 html {
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family: 'Noto Sans JP';
     font-weight: 200px;
     
 }
+
+header{
+    margin: -8px -8px;
+  }
 
 a{
     text-decoration: none !important;
@@ -12,8 +15,10 @@ a{
     
   }
 
+
+
 small{
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family: 'Noto Sans JP';
     font-weight: 100px;
     font-size: 15px;
     }
@@ -22,7 +27,7 @@ small{
 
 
 #BlogContents{
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family: 'Noto Sans JP';
     font-weight: 200px;
     height: 100vx;
     padding:15px;
@@ -41,12 +46,9 @@ small{
       }
 
 #Contents{
-        font-family: 'Noto Sans Japanese', sans-serif;
+        font-family: 'Noto Sans JP';
         font-weight: 100;
         padding:15px;
-        -webkit-border-radius: 1.75px; 
-        -moz-border-radius: 1.75px; 
-        border-radius: 1.75px; 
         }
           
           
@@ -55,7 +57,7 @@ small{
           }
 
         #Contents  h2{
-            font-family: 'Noto Sans Japanese', sans-serif;
+            font-family: 'Noto Sans JP';
             font-weight: 100px;
           }
 
@@ -68,13 +70,17 @@ small{
         }
 
 #SectionT{
-            font-family: 'Noto Sans Japanese', sans-serif;
+            font-family: 'Noto Sans JP';
             text-align: center;
             font-weight: 50px;
             font-size: 55px;
             content: '';
             border-bottom: 1px solid #C8C7CC;  
             }
+#top{
+                background-color: lightsteelblue;
+                color: black;
+                            }
 #aboutz{
                 background-color: #ff7474;
                 color: black;
@@ -98,96 +104,17 @@ small{
                                                 }
 
 #Thinf{
-        font-family: 'Noto Sans Japanese', sans-serif;
+        font-family: 'Noto Sans JP';
         font-weight: 100px;  
         }
 
 #Thinh{
-        font-family: 'Noto Sans Japanese', sans-serif;
+        font-family: 'Noto Sans JP';
         font-weight: 100px;  
-        font-size: 25px;  
-
+        font-size: 50px;  
+        text-align: center;
+        padding: 20px;
             }
-
-#MenuBar{
-    font-family: 'Noto Sans Japanese', sans-serif;
-    font-weight: 100px;  
-    top: 20;
-    left: 0;
-	position: fixed;
-    width: 100vw;
-    z-index:200;
-    background-color: white;
-    -webkit-border-radius: 44px; 
-      -moz-border-radius: 44px; 
-    border-top: solid 0.75px #bec5cf;
-    border-bottom: solid 0.75px #bec5cf;
-  font-size: 16px;
-  
-  
-}
-
-#MenuBar ul{
-	margin: 0;
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-}
-
-#MenuBar small{
-    font-family: 'Noto Sans Japanese', sans-serif;
-    font-weight: 100px;  
-    font-size: 10px;
-    }
-
-#MenuBar li{
-	margin-top: 0.75%;
-	flex: auto; 
-	text-align: center;
-}
-
-#MenuBar a{
-    color: black
-}
-
-#Tit{
-    padding: 15px;
-  font-size: 40px;
-  
-}
-
-.hidden_box .hidden_show {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-.hidden_box input:checked ~ .hidden_show {
-    padding: 10px 0;
-    height: auto;
-    opacity: 1;
-}
-
-.hidden_box label {
-    display: inline-block;
-    padding: 0.3em 1em;
-    text-decoration: none;
-    color: rgb(0,122,255);
-    border: solid 2px rgb(0,122,255);
-    border-radius: 3px;
-    transition: .4s;
-}
-
-.hidden_box input {
-    display: none;
-    
-}
-
-.hidden_box label:hover {
-    color: #679efd;
-}
 
 ln{
     content: '';
@@ -206,7 +133,7 @@ ln{
 }
 
 #works p{
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family: 'Noto Sans JP';
     font-weight: 100px;  
     font-size: 25px;
 }
@@ -241,4 +168,15 @@ ln{
 #heade{
     text-align: center;
     width: 95vw;
+}
+
+#news{
+    text-align: left;
+}
+#news small{
+    margin-left: 25px;
+}
+#news label{
+    text-align: left;
+    margin-left: 30px;
 }
