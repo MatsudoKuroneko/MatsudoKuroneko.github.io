@@ -25,7 +25,7 @@ html::before {
   z-index: -1;
 }
 
-a,a:hover,a:visited{
+a,a:visited{
     text-decoration: none !important;
 }
  
@@ -35,12 +35,12 @@ header{
     padding: 20px;
 }
 
-header a,a:hover,a:visited{
+header a,a:visited{
     position: fixed;
     top: 2%;
     left: 2%;
     filter: grayscale(50%);
-    color: whitesmoke;
+    color: white;
 }
 
 header p{
@@ -56,7 +56,7 @@ header small{
 }
 
 #box{
-    width: 50%;
+    width: 60%;
     height: 50%;
     background-color: rgba(0,0,0,0.5);
     margin: 10% auto;
@@ -68,9 +68,28 @@ header small{
 #box p{
     padding: 1%;
 }
-#box a,a:hover,a:visited{
-    padding: 1%;
+.about{
     font-family: "HiraginoSans-W0","Noto Sans Japanese";
     font-weight: bold; 
-    color: rgb(0,122,255);
+}
+
+#news{
+    width: 85%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.5);
+    margin: 10% auto;
+}
+
+#news h1{
+    padding: 2%;
+}
+#news p{
+    padding: 1%;
+}
+#news small{
+    color: gray;
+    font-size: 12px;
+}
+footer{
+    padding: 1%;
 }
