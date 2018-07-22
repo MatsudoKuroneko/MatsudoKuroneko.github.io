@@ -28,6 +28,8 @@ html::before {
 a,a:visited{
     text-decoration: none !important;
     color:whitesmoke;
+    font-family: "HiraginoSans-W0","Noto Sans Japanese";
+    font-weight: bold; 
 }
  
   
@@ -69,10 +71,7 @@ header small{
 #box p{
     padding: 1%;
 }
-.about{
-    font-family: "HiraginoSans-W0","Noto Sans Japanese";
-    font-weight: bold; 
-}
+
 
 #news{
     width: 85%;
