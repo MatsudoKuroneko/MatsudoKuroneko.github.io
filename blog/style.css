@@ -44,6 +44,8 @@ header a,a:visited{
     left: 2%;
     filter: grayscale(50%);
     color: white;
+    font-weight: normal;
+    font-weight: 100px; 
 }
 
 header p{
