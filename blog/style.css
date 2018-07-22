@@ -60,20 +60,6 @@ header small{
     font-size: 15px;
 }
 
-#box{
-    width: 60%;
-    height: 50%;
-    background-color: rgba(0,0,0,0.5);
-    margin: 10% auto;
-}
-
-#box h1{
-    padding: 2%;
-}
-#box p{
-    padding: 1%;
-}
-
 
 #news{
     width: 85%;
