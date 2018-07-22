@@ -27,6 +27,7 @@ html::before {
 
 a,a:visited{
     text-decoration: none !important;
+    color:whitesmoke;
 }
  
   
@@ -86,10 +87,14 @@ header small{
 #news p{
     padding: 1%;
 }
+
+#news h3{
+    padding: 1.5%;
+}
 #news small{
     color: gray;
     font-size: 12px;
 }
 footer{
-    padding: 1%;
+    padding: 0.5%;
 }
