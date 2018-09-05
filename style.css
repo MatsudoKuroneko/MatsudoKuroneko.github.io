@@ -1,182 +1,191 @@
+/* style.css */
 html {
-    font-family: 'Noto Sans JP';
-    font-weight: 200px;
-    
+    overflow-y: hidden;
+    font-family: "HiraginoSans-W0", -apple-system, BlinkMacSystemFont, 'Noto Sans JP';
+    font-weight: 100px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: url(background.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
 }
 
-header{
-    margin: -8px -8px;
-  }
-
-a{
+a,
+a:visited {
     text-decoration: none !important;
+    color: white;
+}
+
+header {
     text-align: center;
-    font-weight: 10px;
-    
-  }
+    padding: 10px;
+    font-weight: 100px;
+}
 
+#line {
+    border-bottom: dotted 2px whitesmoke;
+}
 
+#img {
+    padding: 5%;
+}
 
-small{
-    font-family: 'Noto Sans JP';
+header img {
+    border-radius: 80px;
+    width: 160px;
+    border: solid #fff;
+}
+
+header small {
     font-weight: 100px;
     font-size: 15px;
-    }
-
-
-
-
-#BlogContents{
-    font-family: 'Noto Sans JP';
-    font-weight: 200px;
-    height: 100vx;
-    padding:15px;
-    color: black;
-    background-color: white;
-	text-align: left;
-    -webkit-border-radius: 1.75px; 
-    -moz-border-radius: 1.75px; 
-    border-radius: 1.75px; 
-    font-size: 28px;
-    font-weight:100;
-    }
-      
-    #BlogContents a{
-          color: black
-      }
-
-#Contents{
-        font-family: 'Noto Sans JP';
-        font-weight: 100;
-        padding:15px;
-        }
-          
-          
-        #Contents a{
-              color: rgb(0,122,255);
-          }
-
-        #Contents  h2{
-            font-family: 'Noto Sans JP';
-            font-weight: 100px;
-          }
-
-          #Contents ul{
-            margin: 0;
-            list-style: none;
-            display: flex;
-            justify-content: space-around;
-          
-        }
-
-#SectionT{
-            font-family: 'Noto Sans JP';
-            text-align: center;
-            font-weight: 50px;
-            font-size: 55px;
-            content: '';
-            border-bottom: 1px solid #C8C7CC;  
-            }
-#top{
-                background-color: lightsteelblue;
-                color: black;
-                            }
-#aboutz{
-                background-color: #ff7474;
-                color: black;
-                            }
-#worksz{
-    background-color: wheat;
-    color: black;
-                }
-
-#linksz{
-                    background-color: #1E90FF;
-                    color: white;
-                                }
-#linksz a{
-                    color: white;
-                                }
-                            
-#footer{
-                    background-color: black;
-                    color: white;
-                                                }
-
-#Thinf{
-        font-family: 'Noto Sans JP';
-        font-weight: 100px;  
-        }
-
-#Thinh{
-        font-family: 'Noto Sans JP';
-        font-weight: 100px;  
-        font-size: 50px;  
-        text-align: center;
-        padding: 20px;
-            }
-
-ln{
-    content: '';
-    margin-left: 10px;
-    border-bottom: 1px solid #C8C7CC;
 }
 
-#graycolor{
-    color: rgb(169,169,169);
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 100px;
 }
 
-
-#works{
-    margin-top: 10px;
-    text-align: center
+#body img {
+    text-decoration: none;
+    transition: all .5s;
 }
 
-#works p{
-    font-family: 'Noto Sans JP';
-    font-weight: 100px;  
-    font-size: 25px;
+#body img:hover {
+    text-decoration: none;
+    transform: scale(1.2);
 }
 
-#works small{
-    font-size: 12px;
-    color: rgb(94,94,94);
+#aboutme {
+    background-color: rgba(210, 124, 139, 0.5);
 }
 
-#ConLink{
-    
-        display: inline-block;
-        padding: 0.3em 1em;
-        text-decoration: none;
-        color: rgb(0,122,255);
-        border: solid 2px rgb(0,122,255);;
-        border-radius: 3px;
-        transition: .4s;
+#works {
+    background-color: rgba(30, 144, 255, 0.5);
 }
 
-#ConLinkH{
+#worksc {
+    padding-bottom: 5%;
+}
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#blog {
+    background-color: rgba(245, 222, 179, 0.5);
+}
+
+#link {
+    height: 25px;
+    font-size: 16px;
     display: inline-block;
-    text-align: center;
     padding: 0.3em 1em;
     text-decoration: none;
-    color: rgb(94,94,94);
-    border: solid 2px rgb(94,94,94);
-    border-radius: 3px;
-    transition: .4s;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    transition: all .5s;
 }
 
-#heade{
+#link:hover {
+    color: black;
+    background-color: white;
+}
+
+#notlink {
+    height: 25px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+#body {
+    padding: 1%;
+    position: relative;
     text-align: center;
-    width: 95vw;
 }
 
-#news{
+#body h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+#body h2 {
+    padding-top: 3.5%;
+    padding-left: 5%;
     text-align: left;
 }
-#news small{
-    margin-left: 25px;
+
+@keyframes feed-in {
+    0% {
+        opacity: 0;
+    }
+
+    1000% {
+        opacity: 1;
+    }
 }
-#news label{
-    text-align: left;
-    margin-left: 30px;
+
+@media screen and (max-width: 320px) {
+
+    /* 表示領域が320px以下の場合に適用するスタイル */
+    header {
+        font-weight: 125px;
+        font-size: 50px;
+        height: 100%;
+        padding: auto auto;
+        animation-duration: 2s;
+        animation-name: feed-in;
+    }
+
+    #mobmanu a,
+    a:visited {
+        display: block;
+        font-size: 50%;
+    }
+
+    #pcmanu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 321px) {
+
+    /* 表示領域が800px以上の場合に適用するスタイル */
+    header {
+        font-weight: 125px;
+        font-size: 60px;
+        height: 100%;
+        padding: auto auto;
+        animation-duration: 2s;
+        animation-name: feed-in;
+    }
+
+    #pcmanu a,
+    a:visited {
+        display: inline-block;
+        font-size: 50%;
+        padding-left: 2.5%;
+        text-decoration: none;
+        transition: all .5s;
+    }
+
+    #pcmanu a:hover {
+        text-decoration: none;
+        opacity: 0.5;
+    }
+
+    #mobmanu {
+        display: none;
+    }
 }
