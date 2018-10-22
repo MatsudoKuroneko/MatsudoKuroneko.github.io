@@ -5,14 +5,11 @@ License : MIT License
 
 html {
     overflow-x: hidden;
-    font-family: "HiraginoSans-W2", -apple-system, BlinkMacSystemFont, 'Noto Sans JP';
+    font-family: "HiraginoSans-W0", -apple-system, BlinkMacSystemFont, 'Noto Sans JP';
     font-weight: 100px;
     color: white;
     width: 100%;
     height: 100%;
-    background: url(background.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     z-index: 0;
 }
 
@@ -23,8 +20,13 @@ a:visited {
     color: white;
 }
 
+small {
+    padding: 1%;
+}
+
 header {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One',
+        'Noto Sans JP';
     text-align: center;
     padding: 10px;
     animation-duration: 2s;
@@ -73,7 +75,6 @@ body {
     background: url(img/icon.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    object-fit: cover;
 }
 
 #aboutme {
@@ -89,7 +90,7 @@ body {
     padding: 1.25%;
 }
 
-#keiko h1{
+#keiko h1 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -106,13 +107,13 @@ body {
 }
 
 #link {
-    height: 25px;
+    height: 100%;
     font-size: 16px;
     display: inline-block;
     padding: 0.3em 1em;
     text-decoration: none;
     color: white;
-    border: solid 1px white;
+    border: solid 0.5px white;
     border-radius: 5px;
     transition: all .5s;
 }
@@ -128,8 +129,8 @@ body {
     display: inline-block;
     padding: 0.3em 1em;
     text-decoration: none;
-    color: dimgray;
-    border: solid 1px dimgray;
+    color: rgb(169, 169, 169);
+    border: solid 0.5px rgba(169, 169, 169, 0.5);
     border-radius: 5px;
 }
 
@@ -142,18 +143,102 @@ body {
 #body h1 {
     font-family: 'Poiret One', cursive;
     font-size: 60px;
-    font-weight: 400px;
 }
 
-#body h2 {
-    padding-top: 3.5%;
-    padding-left: 5%;
-    text-align: left;
+#projectspark {
+    font-family: "HiraginoSans-W3", 'Noto Sans JP';
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(210, 124, 139, 0.5);
+    color: black;
 }
 
+#projectsparkbg {
+    width: 100%;
+    background: url(img/projectspark.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+#projectsparkh {
+    font-family: "HiraginoSans-W0", 'Noto Sans JP';
+    font-size: 60px;
+    font-weight: 100px;
+}
 
+#testerspark {
+    font-family: "HiraginoSans-W3",
+        'Noto Sans JP';
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.6);
+    color: white;
+}
 
+#testersparkbg {
+    width: 100%;
+    background: url(img/testerspark.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#testersparkh {
+    font-family: "HiraginoSans-W0", 'Noto Sans JP';
+    font-size: 60px;
+    font-weight: 100px;
+}
+
+#keiko {
+    font-family: "HiraginoSans-W3",
+        'Noto Sans JP';
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 122, 255, 0.6);
+    color: white;
+}
+
+#keikobg {
+    width: 100%;
+    background: url(img/keikouscreen.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#keikoh {
+    font-family: "HiraginoSans-W0", 'Noto Sans JP';
+    font-size: 60px;
+    font-weight: 100px;
+}
+
+#pirka {
+    font-family: "HiraginoSans-W3",
+        'Noto Sans JP';
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.pirka h1 {
+    color: #06c;
+    font-size: 300%;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#djapp {
+    font-family: "HiraginoSans-W3",
+        'Noto Sans JP';
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    background-color: rgba(30, 144, 255, 0.75);
+    ;
+    color: white;
+}
 
 
 @keyframes splash {
@@ -163,6 +248,7 @@ body {
     }
 
 }
+
 @keyframes splash2 {
     0% {
         transform: translateX(-100%);
@@ -172,6 +258,11 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+    html {
+        background: url(background.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: 375%;
+    }
 
     /* 表示領域が320px以下の場合に適用するスタイル */
     header {
@@ -195,6 +286,11 @@ body {
 }
 
 @media screen and (min-width: 501px) {
+    html {
+        background: url(background.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 
     /* 表示領域が800px以上の場合に適用するスタイル */
     header {
