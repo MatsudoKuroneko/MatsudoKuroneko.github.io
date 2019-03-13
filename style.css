@@ -44,6 +44,7 @@ body {
     padding: 0;
     height: 100%;
     font-weight: 100px;
+    z-index: 1;
 }
 
 #body img {
@@ -66,11 +67,11 @@ body {
     border-radius: 1.75px;
 }
 
-#Contents h1{
+#Contents h1 {
     font-family: 'Poiret One',
         cursive;
     color: whitesmoke;
-        font-size: 500%;
+    font-size: 500%;
 }
 
 #STitle {
@@ -121,6 +122,7 @@ body {
     padding: 0.3em 1em;
     text-decoration: none;
     color: white;
+    z-index: 0;
     border: solid 0.5px whitesmoke;
     border-radius: 4px;
     position: relative;
@@ -254,18 +256,93 @@ body {
     color: white;
 }
 
+#化 {
+    font-family: 'Poiret One',
+        cursive;
+    width: 100%;
+    height: 100%;
+    animation-duration: 0.5s;
+    animation-name: splash;
+    position: fixed;
+        z-index: 0;
+        animation-fill-mode:both;
+}
+#猫黒 {
+    font-family: 'Poiret One',
+        cursive;
+    width: 100%;
+    height: 100%;
+    background-color: #673AB7;
+    animation-duration: 0.5s;
+    animation-name: splash2;
+    position: fixed;
+     z-index: 0;
+animation-delay: 0.5s;
+        animation-fill-mode:both;
+}
+#傷 {
+    font-family: 'Poiret One',
+        cursive;
+    width: 100%;
+    height: 100%;
+    color: black;
+    animation-duration: 0.5s;
+    animation-name: splash3;
+    position: fixed;
+    z-index: 0;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+
 
 @keyframes splash {
     0% {
         transform: translateX(-100%);
-
+        background: pink;
+z-index: 10000;
     }
-
+        50% {
+                           background: pink;
+        }
+    100% {
+        background: #E91E63;
+    }
 }
 
 @keyframes splash2 {
     0% {
         transform: translateX(-100%);
+        background-color: #E91E63;
+        z-index: 10001;
+
+    }
+
+    50% {
+    background-color: #E91E63;
+    }
+
+    100% {
+        background: #673AB7;
+
+    }
+
+}
+
+@keyframes splash3 {
+    0% {
+        transform: translateY(-100%);
+        background-color: pink;
+        z-index: 10002;
+
+    }
+
+    50% {
+    background-color: pink;
+    }
+
+    100% {
+        background: #E91E63;
 
     }
 
@@ -302,6 +379,18 @@ body {
         background: #FF6E40;
     }
 
+#big {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    font-size: 500%;
+    height: 64px;
+text-align: center;
+}
+
     /* 表示領域が800px以上の場合に適用するスタイル */
     header {
         font-weight: 125px;
@@ -309,6 +398,8 @@ body {
         height: 100%;
         padding: auto auto;
     }
+
+
 
     #pcmanu a,
     a:visited {
