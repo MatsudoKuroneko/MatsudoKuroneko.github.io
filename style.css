@@ -1,6 +1,6 @@
 @font-face {
 font-family: "ProductSans";
-  src: url(ProductSans-Regular.woff) format("woff");
+  src: url(fonts/ProductSans-Regular.woff) format("woff");
 }
 
 html {
@@ -124,6 +124,9 @@ padding-top: 5%;
 #skill {
     height: 100%;
     background: #3F51B5;
+}
+
+#skilltile {
       display: grid;
     grid-template-columns: 25% 50% 1fr;
 }
